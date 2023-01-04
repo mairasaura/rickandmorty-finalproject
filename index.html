@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <script
+      src="https://kit.fontawesome.com/1533902f6f.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Proyecto Final - API Rick&Morty</title>
+  </head>
+  <body>
+    <header>
+      <div>
+        <img class="rick-and-morty" src="img/rickandmorty-image.png" alt="Rick and Morty image"/>
+        <img class="logo" src="./img/logo-rickandmorty.png" alt="Rick and Morty logo" />
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#synopsis-container">SYNOPSIS</a></li>
+          <li><a href="#card-container">CHARACTERS</a></li>
+          <li><a href="#streaming-info">WATCH THE SHOW</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="synopsis-container" class="synopsis-container">
+        <img
+          src="./img/Rick_and_Morty_Season_1.webp"
+          alt="Promotional poster of Rick and Morty show, season 1."
+        />
+        <div>
+          <h2>Synopsis:</h2>
+          <p>
+            The series follows the misadventures of cynical mad scientist Rick
+            Sanchez and his good-hearted but fretful grandson Morty Smith, who
+            split their time between domestic life and interdimensional
+            adventures that take place across an infinite number of realities,
+            often travelling to other planets and dimensions through portals and
+            on Rick's flying saucer. The general concept of Rick and Morty
+            relies on two conflicting scenarios: domestic family drama, and an
+            alcoholic grandfather dragging his grandson into hijinks.
+          </p>
+          <p>Created by Justin Roiland and Dan Harmon.</p>
+          <p>Release: 2013.</p>
+          <p>Country of origin: USA.</p>
+        </div>
+      </section>
+      <section>
+        <div>
+          <h2 class="title">Characters:</h2>
+        </div>
+        <div id="card-container" class="card-container">
+          <!--JS injected content here-->
+        </div>
+      </section>
+      <section id="streaming-info" class="streaming-info">
+        <a href="https://www.hbomax.com/ar/es/series/urn:hbo:series:GXkRjxwjR68PDwwEAABKJ?countryRedirect=1" class="hbo-shortcut" title="Watch Rick and Morty now!"
+          ><img src="./img/logo-hbomax.webp" alt="HBO Max logo"
+        /></a>
+        <div>
+          <h2>Watch the show!</h2>
+          <p>
+            All 6 seasons of Rick and Morty are available on HBO Max. It has a total of 61 episodes.
+          </p>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="data-left-section">
+        <p class="author-name">Made with ♥ by Maira Ledesma.</p>
+        <p>Introduction to Frontend</p>
+        <p>October 2022 / December 2022</p>
+        <p>Professor: Gabriel Alberini</p>
+        <p>Commision: Nippy - ADA ITW</p>
+      </div>
+      <div class="data-right-section">
+        <a href="https://github.com/mairasaura" target="_blank">
+          <i class="fa-brands fa-github"></i> My Github profile
+        </a>
+        <a href="mailto: mairajledesma@gmail.com" target="_blank">
+          <i class="fa-regular fa-envelope"></i> Contact me</a
+        >
+      </div>
+    </footer>
+    <script src="./app/app.js"></script>
+  </body>
+</html>
